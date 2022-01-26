@@ -11,3 +11,4 @@ The website features:
 - Booking system
 - Like system
 - Database for storing user credentials and event details
+- Filter events in ascending or decending order
