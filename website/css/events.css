@@ -1,0 +1,46 @@
+body {
+    color: #5a5a5a;
+  }
+
+.featurette-divider {
+    margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+  /* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+  
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 0.75rem;
+    }
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.card {
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    /*displays flex items in a column*/
+    flex-direction: column;
+    /*word-wrap allows long words to break and wrap to a new line*/
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    max-width: 75%;
+}
