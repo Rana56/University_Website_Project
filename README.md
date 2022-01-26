@@ -8,6 +8,6 @@ The website features:
 - A homepage with a navigation bar to different pages
 - Login page
 - Sign-Up page
-- Like System
-- Booking System
+- Booking system
+- Like system
 - Database for storing user credentials and event details
